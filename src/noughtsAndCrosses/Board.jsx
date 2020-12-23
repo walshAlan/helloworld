@@ -50,8 +50,8 @@ export default class Board extends React.Component {
     render() {
         if (calculateWinner(this.state.squares)) {
             return (
-                <div>
-                    <div>{this.state.xIsNext ? 'O wins' : 'X wins'}</div>
+                <div className="end-game-wrapper">
+                    <div className="end-game-text">{this.state.xIsNext ? 'O wins' : 'X wins'}</div>
                     {this.renderRestartButton()}
                 </div>
             );
@@ -59,7 +59,7 @@ export default class Board extends React.Component {
         if (!this.state.squares.includes(null)) {
             return (
                 <div>
-                    <div>'Draw'</div>
+                    <div className="end-game-text">'Draw'</div>
                     {this.renderRestartButton()}
                 </div>
             );
