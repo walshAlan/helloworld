@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HelloWorldWebsite/static/css/main.5e6e5794.chunk.css",
-    "main.js": "/HelloWorldWebsite/static/js/main.72ce955b.chunk.js",
-    "main.js.map": "/HelloWorldWebsite/static/js/main.72ce955b.chunk.js.map",
+    "main.js": "/HelloWorldWebsite/static/js/main.d1060d7e.chunk.js",
+    "main.js.map": "/HelloWorldWebsite/static/js/main.d1060d7e.chunk.js.map",
     "runtime-main.js": "/HelloWorldWebsite/static/js/runtime-main.b5e522d8.js",
     "runtime-main.js.map": "/HelloWorldWebsite/static/js/runtime-main.b5e522d8.js.map",
     "static/js/2.4a439e0a.chunk.js": "/HelloWorldWebsite/static/js/2.4a439e0a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b5e522d8.js",
     "static/js/2.4a439e0a.chunk.js",
     "static/css/main.5e6e5794.chunk.css",
-    "static/js/main.72ce955b.chunk.js"
+    "static/js/main.d1060d7e.chunk.js"
   ]
 }
