@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/websiteHelloWorld/static/css/main.cd3a3863.chunk.css",
-    "main.js": "/websiteHelloWorld/static/js/main.3eec9827.chunk.js",
-    "main.js.map": "/websiteHelloWorld/static/js/main.3eec9827.chunk.js.map",
-    "runtime-main.js": "/websiteHelloWorld/static/js/runtime-main.0e2cfb16.js",
-    "runtime-main.js.map": "/websiteHelloWorld/static/js/runtime-main.0e2cfb16.js.map",
-    "static/js/2.676af379.chunk.js": "/websiteHelloWorld/static/js/2.676af379.chunk.js",
-    "static/js/2.676af379.chunk.js.map": "/websiteHelloWorld/static/js/2.676af379.chunk.js.map",
-    "static/js/3.7ff8b8d3.chunk.js": "/websiteHelloWorld/static/js/3.7ff8b8d3.chunk.js",
-    "static/js/3.7ff8b8d3.chunk.js.map": "/websiteHelloWorld/static/js/3.7ff8b8d3.chunk.js.map",
-    "index.html": "/websiteHelloWorld/index.html",
-    "static/css/main.cd3a3863.chunk.css.map": "/websiteHelloWorld/static/css/main.cd3a3863.chunk.css.map",
-    "static/js/2.676af379.chunk.js.LICENSE.txt": "/websiteHelloWorld/static/js/2.676af379.chunk.js.LICENSE.txt"
+    "main.css": "/HelloWorldWebsite/static/css/main.cd3a3863.chunk.css",
+    "main.js": "/HelloWorldWebsite/static/js/main.3eec9827.chunk.js",
+    "main.js.map": "/HelloWorldWebsite/static/js/main.3eec9827.chunk.js.map",
+    "runtime-main.js": "/HelloWorldWebsite/static/js/runtime-main.a7746388.js",
+    "runtime-main.js.map": "/HelloWorldWebsite/static/js/runtime-main.a7746388.js.map",
+    "static/js/2.676af379.chunk.js": "/HelloWorldWebsite/static/js/2.676af379.chunk.js",
+    "static/js/2.676af379.chunk.js.map": "/HelloWorldWebsite/static/js/2.676af379.chunk.js.map",
+    "static/js/3.7ff8b8d3.chunk.js": "/HelloWorldWebsite/static/js/3.7ff8b8d3.chunk.js",
+    "static/js/3.7ff8b8d3.chunk.js.map": "/HelloWorldWebsite/static/js/3.7ff8b8d3.chunk.js.map",
+    "index.html": "/HelloWorldWebsite/index.html",
+    "static/css/main.cd3a3863.chunk.css.map": "/HelloWorldWebsite/static/css/main.cd3a3863.chunk.css.map",
+    "static/js/2.676af379.chunk.js.LICENSE.txt": "/HelloWorldWebsite/static/js/2.676af379.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e2cfb16.js",
+    "static/js/runtime-main.a7746388.js",
     "static/js/2.676af379.chunk.js",
     "static/css/main.cd3a3863.chunk.css",
     "static/js/main.3eec9827.chunk.js"
