@@ -1,4 +1,6 @@
 import React from "react";
+import Game from './noughtsAndCrosses/Game';
+import './App.css'
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +22,9 @@ export default function BasicExample() {
           <li>
             <Link to="/dashboard">Dashboard</Link>
           </li>
+          <li>
+            <Link to="/noughtsandcrosses">Noughts and Crosses</Link>
+          </li>
         </ul>
 
         <hr />
@@ -40,6 +45,9 @@ export default function BasicExample() {
           </Route>
           <Route path="/dashboard">
             <Dashboard />
+          </Route>
+          <Route path="/noughtsandcrosses">
+            <Game />
           </Route>
         </Switch>
       </div>
