@@ -33,9 +33,36 @@ export default class Board extends React.Component {
         );
       }
 
+    renderRestartButton() {
+        return (
+            <button 
+                onClick={() => this.setState({
+                    squares: Array(9).fill(null),
+                    xIsNext: true,
+                }
+                )}
+            >
+                Restart game
+            </button>
+        );
+    }
+
     render() {
         if (calculateWinner(this.state.squares)) {
-            return <div>{this.state.xIsNext ? 'O wins' : 'X wins'}</div>
+            return (
+                <div>
+                    <div>{this.state.xIsNext ? 'O wins' : 'X wins'}</div>
+                    {this.renderRestartButton()}
+                </div>
+            );
+        }
+        if (!this.state.squares.includes(null)) {
+            return (
+                <div>
+                    <div>'Draw'</div>
+                    {this.renderRestartButton()}
+                </div>
+            );
         }
         const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         return (
