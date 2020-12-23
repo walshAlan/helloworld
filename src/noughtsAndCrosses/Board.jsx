@@ -58,8 +58,8 @@ export default class Board extends React.Component {
         }
         if (!this.state.squares.includes(null)) {
             return (
-                <div>
-                    <div className="end-game-text">'Draw'</div>
+                <div className="end-game-wrapper">
+                    <div className="end-game-text">Draw</div>
                     {this.renderRestartButton()}
                 </div>
             );
