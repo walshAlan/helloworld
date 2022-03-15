@@ -1,9 +1,8 @@
 {
-  "homepage": "http://walshalan.github.io/HelloWorldWebsite",
-  "name": "my-react-app",
+  "homepage": "http://walshalan.github.io/helloworld",
+  "name": "helloworld",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
